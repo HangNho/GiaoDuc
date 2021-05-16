@@ -6,23 +6,23 @@
         xmlns:local="clr-namespace:Module02"
         mc:Ignorable="d"
         Title="MainWindow" Height="400" Width="500">
-    <StackPanel VerticalAlignment="Center"  >
-        <StackPanel Orientation="Horizontal"  HorizontalAlignment="Center" >
-            <TextBlock  FontSize="20">User name:</TextBlock>
-            <TextBox Text="Tên Tài Khoản" FontSize="20" </TextBox>
-        </StackPanel>
-        <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
-            <TextBlock FontSize="20">Pass:</TextBlock>
-            <TextBox Text="mật khẩu" FontSize="20"></TextBox>
-        </StackPanel>
-        <StackPanel>
-            <Border   BorderThickness="3" BorderBrush="BlueViolet" Height="40" Width="110">
-                <Button  HorizontalAlignment="Center" FontSize="20">Đăng nhập</Button>
-            </Border>
-            <Button HorizontalAlignment="Center">Đăng kí tài khoản mới</Button>
-            <TextBlock HorizontalAlignment="Center">Quên mật khẩu?</TextBlock>
-        </StackPanel>
+    < StackPanel  VerticalAlignment = " Trung tâm "   >
+        < StackPanel  Orientation = " Horizontal "   HorizontalAlignment = " Center " >
+            < TextBlock   FontSize = " 20 " > Tên người dùng: </ TextBlock >
+            < TextBox  Text = " Tên Tài khoản "  FontSize = " 20 " </TextBox>
+        </ StackPanel >
+        < StackPanel  Orientation = " Horizontal "  HorizontalAlignment = " Center " >
+            < TextBlock  FontSize = " 20 " > Vượt qua: </ TextBlock >
+            < TextBox  chữ = " mật khẩu "  FontSize = " 20 " > </ TextBox >
+        </ StackPanel >
+        < Bảng điều khiển >
+            < Border    BorderThickness = " 3 "  BorderBrush = " BlueViolet "  Height = " 40 "  Width = " 110 " >
+                < Button   HorizontalAlignment = " Center "  FontSize = " 20 " > Đăng nhập </ Button >
+            </ Border >
+            < Button  HorizontalAlignment = " Center " > Đăng kí mới tài khoản </ Button >
+            < TextBlock  HorizontalAlignment = " Center " > Quên mật khẩu? </ TextBlock >
+        </ StackPanel >
 
-    </StackPanel>
+    </ StackPanel >
 
-</Window>
+</ Cửa sổ >
